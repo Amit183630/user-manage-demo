@@ -149,7 +149,7 @@ Password: test
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/example/
-│   │   │       ├── api/          # Integeration classes of https://www.ipify.org/ abd https://ip-api.com
+│   │   │       ├── api/          # Integeration classes of https://www.ipify.org/ and https://ip-api.com
 │   │   │       ├── config/       # Configuration classes
 │   │   │       ├── controller/   # REST Controllers
 │   │   │       ├── dto/          # Data Transfer Objects
