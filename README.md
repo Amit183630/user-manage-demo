@@ -119,6 +119,11 @@ curl -u john@example.com:Password@123 \
 curl -u admin@example.com:admin123 \
 -X GET "http://localhost:8080/api/users"
 ```
+4. Delete User by Email (Admin Only)
+```
+curl -u admin@example.com:admin123 \
+-X DELETE "http://localhost:8080/api/users/delete?email=john@example.com"
+```
 
 # Testing
 Run Unit Tests
