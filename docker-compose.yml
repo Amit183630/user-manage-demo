@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  user-service:
+    build: .
+    container_name: user-service
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:h2:file:/data/userdb
+      SPRING_DATASOURCE_USERNAME: test
+      SPRING_DATASOURCE_PASSWORD: test
+      SPRING_JPA_HIBERNATE_DDL-AUTO: update
+      SPRING_H2_CONSOLE_ENABLED: true
+    volumes:
+      - h2-data:/data
+    restart: unless-stopped
+
+volumes:
+  h2-data:
