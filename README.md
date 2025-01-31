@@ -13,8 +13,6 @@ A robust user management system with registration, authentication, and admin fea
 - [Testing](#testing)
 - [Database Access](#database-access)
 - [Project Structure](#project-structure)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ## Features
 - ✅ User registration with email uniqueness check
@@ -86,7 +84,7 @@ http://localhost:8080/swagger-ui.html
 
 Swagger UI
 
-Usage
+# Usage
 Authentication
 Use Basic Authentication with:
 
