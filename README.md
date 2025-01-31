@@ -80,11 +80,11 @@ Docker
 docker-compose up --build
 ```
 
-API Documentation
+# API Documentation
 Access Swagger UI at:
 http://localhost:8080/swagger-ui.html
 
-# Swagger UI
+Swagger UI
 
 Usage
 Authentication
