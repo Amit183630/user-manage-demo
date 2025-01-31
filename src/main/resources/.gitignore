@@ -1,0 +1,138 @@
+# --- Build Tools ---
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+out/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ant
+ant-build/
+dist/
+
+# --- IDEs ---
+## Eclipse/STS
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+## IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+## NetBeans
+nbproject/
+nb-configuration.xml
+.nb-gradle/
+
+## VS Code
+.vscode/
+
+# --- Dependency Directories ---
+node_modules/
+jspm_packages/
+bower_components/
+vendor/
+.pnp
+.pnp.js
+
+# --- Logs and Databases ---
+*.log
+*.sql
+*.sqlite
+*.h2.db
+
+# --- Local Environment Files ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Temporary Files ---
+*.swp
+*.swo
+*.swn
+*.bak
+*.class
+
+# --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Package Files ---
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# --- Testing ---
+coverage/
+.nyc_output/
+*.lcov
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+env/
+
+# --- JetBrains Template Projects ---
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# --- Custom Exclusions ---
+# Add project-specific exclusions below
+# application.properties (if you have environment-specific configs)
+# !src/main/resources/application.properties
+
+# --- Others ---
+*.orig
+*.cache
+*.diff
+*.patch
+*.rej
+*.*~
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
