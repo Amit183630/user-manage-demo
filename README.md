@@ -1,4 +1,4 @@
-# <Project Name> ![Java](https://img.shields.io/badge/Java-17-red) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4.2-brightgreen) [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+# <Project Name> ![Java](https://img.shields.io/badge/Java-17-red) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4.2-brightgreen) 
 
 A robust user management system with registration, authentication, and admin features. Built with Spring Boot, JUnit, Swagger, and Docker.
 
